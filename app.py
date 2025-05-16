@@ -13,7 +13,7 @@ model_path = r''
 model = tf.keras.models.load_model(model_path)
 
 # loading the class names
-class_indices = json.load(open(r"C:\Users\Rajesh\plantleafdisease\class_indices.json"))
+class_indices = json.load(open(r"give your json path here "))
 
 
 # Function to Load and Preprocess the Image using Pillow
